@@ -128,16 +128,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page1</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page1</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -6234,7 +6240,7 @@
     <fields>
         <fullName>Jira_Link_URL__c</fullName>
         <externalId>false</externalId>
-        <formula>HYPERLINK(&quot;https://mercedes-copado-trial.atlassian.com/browse/&quot;+ Jira_Key__c , &quot;Goto Jira&quot; , &quot;_blank&quot;)</formula>
+        <formula>HYPERLINK(&quot;https://mercedes-copado-trial.atlassian.net/browse/&quot;+ Jira_Key__c , &quot;View in Jira&quot; , &quot;_blank&quot;)</formula>
         <label>Jira Link URL</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -7845,6 +7851,22 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </fields>
     <label>User Story</label>
     <listViews>
+        <fullName>POC_US</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>copado__Status__c</columns>
+        <columns>Jira_Link_URL__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__User_Story_Title__c</field>
+            <operation>startsWith</operation>
+            <value>US</value>
+        </filters>
+        <label>POC US</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>
@@ -7856,6 +7878,9 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__Epic__c</columns>
         <columns>copado__Theme__c</columns>
         <columns>copado__Project__c</columns>
+        <columns>Dependent_on_External_System_1__c</columns>
+        <columns>Dependent_on_External_System_2__c</columns>
+        <columns>Dependent_on_External_System_3__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>copado__Priority__c</field>
