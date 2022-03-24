@@ -4476,7 +4476,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>copado__UserStoryPipelinePathCtrl</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>copado__UserStoryPipelinePathCtrlTest</apexClass>

@@ -853,6 +853,27 @@ IMAGE(&apos;/resource/1516617568000/&apos;+IF($Setup.copado__Settings__c.copado_
     </fields>
     <label>Credential</label>
     <listViews>
+        <fullName>Shared_Credentials</fullName>
+        <columns>NAME</columns>
+        <columns>copado__Org_Type__c</columns>
+        <columns>copado__Username__c</columns>
+        <columns>copado__SFDC_Org_ID__c</columns>
+        <columns>copado__Test_Frequency__c</columns>
+        <columns>copado__Validated_Date__c</columns>
+        <columns>copado__Validated_Status__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>copado__Last_Git_Backup_Status__c</columns>
+        <columns>copado__Last_Apex_Tests_Status__c</columns>
+        <columns>copado__Default_Credential__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>DevShared</value>
+        </filters>
+        <label>Shared Credentials</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Org_Type__c</columns>
@@ -864,9 +885,9 @@ IMAGE(&apos;/resource/1516617568000/&apos;+IF($Setup.copado__Settings__c.copado_
         <columns>CREATEDBY_USER</columns>
         <columns>copado__Last_Git_Backup_Status__c</columns>
         <columns>copado__Last_Apex_Tests_Status__c</columns>
+        <columns>copado__Default_Credential__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
-        <language>en_US</language>
     </listViews>
     <nameField>
         <label>Credential Name</label>
