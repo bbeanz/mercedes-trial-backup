@@ -49,7 +49,12 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>copado__User_Story__c.copado__Sprint__c</groupingColumn>
-                <groupingSortProperties/>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <inheritedReportGroupingSort>i</inheritedReportGroupingSort>
+                    </groupingSorts>
+                </groupingSortProperties>
                 <header>Sprints Velocity</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>copado__Copado_Change_Management/copado__CCM_Release_User_Stories</report>
@@ -104,7 +109,13 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>CUST_RECORDTYPE</groupingColumn>
-                <groupingSortProperties/>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>s!copado__User_Story__c.copado__Total_Story_Points__c</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
                 <header>User Stories completed by Type</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>copado__Copado_Change_Management/copado__CCM_Release_USs_by_Type</report>
@@ -133,7 +144,13 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>copado__User_Story__c.copado__Project__c</groupingColumn>
-                <groupingSortProperties/>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>RowCount</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
                 <header>User Stories completed by Project</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>6</maxValuesDisplayed>
@@ -165,7 +182,13 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>copado__User_Story__c.copado__Project__c</groupingColumn>
-                <groupingSortProperties/>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortColumn>s!copado__User_Story__c.copado__Total_Story_Points__c</sortColumn>
+                        <sortOrder>d</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
                 <header>Story Points completed by Project</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>copado__Copado_Change_Management/copado__CCM_Release_USs_by_Project</report>
@@ -183,7 +206,7 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser>bsavage+mercedes@copado.trial</runningUser>
+    <runningUser>pleitao+mercedes@copado.trial</runningUser>
     <textColor>#000000</textColor>
     <title>CCM - Release Dashboard</title>
     <titleColor>#000000</titleColor>
