@@ -7858,6 +7858,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>copado__Sprint__c</columns>
         <columns>copado__Status__c</columns>
         <columns>Jira_Link_URL__c</columns>
+        <columns>copado__Environment__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>copado__User_Story_Title__c</field>
