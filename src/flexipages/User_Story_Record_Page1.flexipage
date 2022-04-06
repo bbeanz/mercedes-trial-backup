@@ -2969,8 +2969,8 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>force:detailPanel</componentName>
-                <identifier>force_detailPanel1</identifier>
+                <componentName>copado:userStoryPipelinePath</componentName>
+                <identifier>copado_userStoryPipelinePath1</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -3255,6 +3255,12 @@
             <componentInstance>
                 <componentName>copado:definitionOfDone</componentName>
                 <identifier>c_definitionOfDone1</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel1</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>
