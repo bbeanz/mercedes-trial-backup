@@ -7868,6 +7868,22 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <label>POC US</label>
     </listViews>
     <listViews>
+        <fullName>POCv2</fullName>
+        <columns>NAME</columns>
+        <columns>copado__User_Story_Title__c</columns>
+        <columns>copado__Epic__c</columns>
+        <columns>copado__Sprint__c</columns>
+        <columns>copado__Progress__c</columns>
+        <columns>copado__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>copado__User_Story_Title__c</field>
+            <operation>contains</operation>
+            <value>POCv2</value>
+        </filters>
+        <label>POCv2</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>RECORDTYPE</columns>
