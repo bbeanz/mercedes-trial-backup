@@ -17693,6 +17693,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>copado__Static_Code_Analysis_Result__c.copado__PMD</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -17703,6 +17704,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>copado__Static_Code_Analysis_Settings__c.copado__PMD</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -17713,6 +17715,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>copado__Static_Code_Analysis_Violation__c.copado__PMD</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
